@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site d'Aventures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explorez le Monde</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">À Propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-text">
+            <h2>Vivez des aventures inoubliables</h2>
+            <p>Découvrez des paysages époustouflants et des expériences uniques.</p>
+            <button onclick="scrollToSection('destinations')">Voir les destinations</button>
+        </div>
+    </section>
+
+    <section id="destinations">
+        <h2>Nos Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination-item">
+                <img src="https://th.bing.com/th/id/OIP.L1F7lj2D9VX3NmmraOQIYwHaFj?rs=1&pid=ImgDetMain" alt="Montagnes">
+                <h3>Randonnée en Montagne</h3>
+                <p>Partez à la conquête des plus hauts sommets.</p>
+            </div>
+            <div class="destination-item">
+                <img src="https://th.bing.com/th/id/OIP.cLdrS01wn35efsvQY5yurQHaE8?rs=1&pid=ImgDetMain" alt="Forêt">
+                <h3>Exploration en Forêt</h3>
+                <p>Plongez dans les profondeurs des forêts tropicales.</p>
+            </div>
+            <div class="destination-item">
+                <img src="https://th.bing.com/th/id/R.3ffc4a17dcf88a6bda3f5756cfbd899b?rik=J0iXk25OUqUUQg&pid=ImgRaw&r=0" alt="Désert">
+                <h3>Aventures dans le Désert</h3>
+                <p>Traversez les vastes étendues désertiques.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aventures Inc. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
